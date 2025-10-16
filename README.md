@@ -36,7 +36,7 @@ meu-app/
 
 ## 🐍 Aplicação Flask
 
-**`app.py`**
+**app.py**
 ```
 cpython
 from flask import Flask
@@ -50,14 +50,14 @@ def home():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
 ```
-requirements.txt
+**requirements.txt**
 ```
 flask==2.3.2
 ```
 
 🧪 Testes Automatizados com Pytest
 
-test_app.py
+**test_app.py**
 ```
 def test_home():
     from app import app
@@ -69,7 +69,7 @@ def test_home():
 
 🐳 Dockerfile
 
-Dockerfile
+**Dockerfile**
 ```
 
 FROM python:3.11-slim
