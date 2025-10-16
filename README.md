@@ -37,6 +37,7 @@ meu-app/<br>
 ## 🐍 Aplicação Flask
 
 **`app.py`**
+```
 cpython
 from flask import Flask
 
