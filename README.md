@@ -6,13 +6,13 @@ Este projeto é um exemplo simples de aplicação Flask empacotada com Docker e 
 
 ## 📁 Estrutura do Projeto
 
-meu-app/ 
-├── app.py
-├── requirements.txt
-├── test_app.py
-├── Dockerfile
-├── .github/
-├── workflow/
+meu-app/<br> 
+├── app.py<br>
+├── requirements.txt<br>
+├── test_app.py<br>
+├── Dockerfile<br>
+├── .github/<br>
+├── workflow/<br>
 ├── docker.yml
 
 ## 🐍 Aplicação Flask
