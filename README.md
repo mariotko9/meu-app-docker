@@ -1,11 +1,29 @@
 # 🚀 Meu App com Docker e GitHub Actions
-
-Este projeto é um exemplo simples de aplicação Flask empacotada com Docker e integrada com GitHub Actions para build e testes automáticos.
-
 ---
 
-## 📁 Estrutura do Projeto
+![Build Status](https://github.com/mariotko9/meu-app-docker/actions/workflows/docker.yml/badge.svg)
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
+Este projeto é um exemplo simples de aplicação Flask empacotada com Docker e integrada com GitHub Actions para build, testes automatizados e integração contínua.
+
+---
+## 📚 Índice
+
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🐍 Aplicação Flask](#-aplicação-flask)
+- [🧪 Testes Automatizados com Pytest](#-testes-automatizados-com-pytest)
+- [🐳 Dockerfile](#-dockerfile)
+- [🧪 Testar Localmente](#-testar-localmente)
+- [☁️ Subir para o GitHub](#️-subir-para-o-github)
+- [⚙️ GitHub Actions: Pipeline de Build e Teste](#️-github-actions-pipeline-de-build-e-teste)
+- [🧪 Simulações de Erros](#-simulações-de-erros)
+- [📣 Badges](#-badges)
+- [✅ Resultado](#-resultado)
+
+---
+## 📁 Estrutura do Projeto
+```
 meu-app/<br> 
 ├── app.py<br>
 ├── requirements.txt<br>
@@ -14,11 +32,12 @@ meu-app/<br>
 ├── .github/<br>
 ├── workflow/<br>
 ├── docker.yml
+```
 
 ## 🐍 Aplicação Flask
 
 **`app.py`**
-```python
+cpython
 from flask import Flask
 
 app = Flask(__name__)
@@ -35,7 +54,7 @@ requirements.txt
 flask==2.3.2
 ```
 
-🧪 Testes Automatizados
+🧪 Testes Automatizados com Pytest
 
 test_app.py
 ```
@@ -119,6 +138,18 @@ jobs:
     - name: Rodar testes com pytest
       run: pytest test_app.py
 ```
+  ✅ Resultado
+
+A cada push ou pull request:
+
+    O GitHub Actions builda a imagem Docker
+
+    Roda o container
+
+    Testa a resposta HTTP
+
+    Executa testes automatizados com pytest
+
 🧪 Simulações de Erros
 
     ❌ Dependência inexistente no requirements.txt
@@ -128,3 +159,14 @@ jobs:
     ❌ Porta incorreta no app.run()
 
     ✅ Testes automatizados com pytest
+
+    
+📣 Badges
+
+    Build Status: mostra se o último workflow passou ou falhou
+
+    Docker Ready: indica que o projeto está conteinerizado
+
+    License: exibe o tipo de licença do projeto
+
+Feito com ❤️ usando Docker, Flask e GitHub Actions
