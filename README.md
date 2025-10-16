@@ -139,17 +139,7 @@ jobs:
     - name: Rodar testes com pytest
       run: pytest test_app.py
 ```
-  ✅ Resultado
-
-A cada push ou pull request:
-
-    O GitHub Actions builda a imagem Docker
-
-    Roda o container
-
-    Testa a resposta HTTP
-
-    Executa testes automatizados com pytest
+  
 
 🧪 Simulações de Erros
 
@@ -160,7 +150,6 @@ A cada push ou pull request:
     ❌ Porta incorreta no app.run()
 
     ✅ Testes automatizados com pytest
-
     
 📣 Badges
 
@@ -169,5 +158,17 @@ A cada push ou pull request:
     Docker Ready: indica que o projeto está conteinerizado
 
     License: exibe o tipo de licença do projeto
+
+    ✅ Resultado
+
+A cada push ou pull request:
+
+    O GitHub Actions builda a imagem Docker
+
+    Roda o container
+
+    Testa a resposta HTTP
+
+    Executa testes automatizados com pytest
 
 Feito com ❤️ usando Docker, Flask e GitHub Actions
