@@ -5,7 +5,7 @@
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Este repositório demonstra como empacotar uma aplicação Flask com Docker e configurar uma pipeline de integração contínua usando GitHub Actions. Ideal para quem quer aprender DevOps na prática com Python. 🚀
+Este repositório demonstra como empacotar uma aplicação Flask com Docker e configurar uma pipeline de integração contínua usando GitHub Actions. Ideal para quem quer aprender DevOps na prática com Python. 🚀\n
 É um exemplo simples de aplicação Flask empacotada com Docker e integrada com GitHub Actions para build, testes automatizados e integração contínua.
 
 ---
