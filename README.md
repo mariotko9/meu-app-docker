@@ -171,4 +171,4 @@ A cada push ou pull request:
 
     Executa testes automatizados com pytest
 
-Feito com ❤️ usando Docker, Flask e GitHub Actions
+Feito com ❤️ usando Docker, Flask e GitHub Actions.
