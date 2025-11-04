@@ -55,7 +55,7 @@ if __name__ == "__main__":
 flask==2.3.2
 ```
 
-🧪 Testes Automatizados com Pytest
+## 🧪 Testes Automatizados com Pytest
 
 **test_app.py**
 ```
@@ -67,7 +67,7 @@ def test_home():
     assert b"Olá, mundo" in response.data
 ```
 
-🐳 Dockerfile
+## 🐳 Dockerfile
 
 **Dockerfile**
 ```
@@ -86,14 +86,14 @@ EXPOSE 5000
 CMD ["python", "app.py"]
 ```
 
-🧪 Testar localmente
+## 🧪 Testar localmente
 ```
 no bash: cd meu-app-docker
 docker build -t meu-app .
 docker run -p 5000:5000 meu-app
 ```
 
-☁️ Subir para o GitHub
+## ☁️ Subir para o GitHub
 ```
 git init
 git remote add origin https://github.com/SEU_USUARIO/meu-app-docker.git
@@ -103,7 +103,7 @@ git branch -M main
 git push -u origin main
 ```
 
-⚙️ GitHub Actions: Pipeline de Build e Teste
+## ⚙️ GitHub Actions: Pipeline de Build e Teste
 ```
 .github/workflows/docker.yml
 
@@ -142,7 +142,7 @@ jobs:
 ```
   
 
-🧪 Simulações de Erros
+## 🧪 Simulações de Erros
 
     ❌ Dependência inexistente no requirements.txt
 
@@ -152,7 +152,7 @@ jobs:
 
     ✅ Testes automatizados com pytest
     
-📣 Badges
+## 📣 Badges
 
     Build Status: mostra se o último workflow passou ou falhou
 
@@ -160,7 +160,7 @@ jobs:
 
     License: exibe o tipo de licença do projeto
 
-    ✅ Resultado
+## ✅ Resultado
 
 A cada push ou pull request:
 
