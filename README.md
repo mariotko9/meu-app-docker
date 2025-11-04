@@ -88,6 +88,7 @@ CMD ["python", "app.py"]
 
 🧪 Testar localmente
 ```
+no bash: cd meu-app-docker
 docker build -t meu-app .
 docker run -p 5000:5000 meu-app
 ```
