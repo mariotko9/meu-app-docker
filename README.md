@@ -1,11 +1,12 @@
-# 🚀 Meu App com Docker e GitHub Actions
+# 🚀 Aplicação Flask com Docker e CI/CD via GitHub Actions
 ---
 
 ![Build Status](https://github.com/mariotko9/meu-app-docker/actions/workflows/docker.yml/badge.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Este projeto é um exemplo simples de aplicação Flask empacotada com Docker e integrada com GitHub Actions para build, testes automatizados e integração contínua.
+Este repositório demonstra como empacotar uma aplicação Flask com Docker e configurar uma pipeline de integração contínua usando GitHub Actions. Ideal para quem quer aprender DevOps na prática com Python. 🚀
+É um exemplo simples de aplicação Flask empacotada com Docker e integrada com GitHub Actions para build, testes automatizados e integração contínua.
 
 ---
 ## 📚 Índice
@@ -172,4 +173,14 @@ A cada push ou pull request:
 
     Executa testes automatizados com pytest
 
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
 Feito com ❤️ usando Docker, Flask e GitHub Actions.
+
+⭐️ Dê uma estrela no repositório se este projeto te ajudou de alguma forma!
