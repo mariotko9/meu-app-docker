@@ -88,6 +88,9 @@ CMD ["python", "app.py"]
 
 ## 🧪 Testar localmente
 ```
+fazer o git clone no seu git bash
+git clone https://github.com/SEU_USUARIO/meu-app-docker.git
+
 no bash: cd meu-app-docker
 docker build -t meu-app .
 docker run -p 5000:5000 meu-app
