@@ -1,13 +1,13 @@
-# 🚀 Meu App com Docker e GitHub Actions
+# 🚀 Aplicação Flask com Docker e CI/CD via GitHub Actions
 ---
 .
 ![Build Status](https://github.com/mariotko9/meu-app-docker/actions/workflows/docker.yml/badge.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Este projeto é um exemplo simples de aplicação Flask empacotada com Docker e integrada com GitHub Actions para build, testes automatizados e integração contínua.
-
 ---
+Este repositório demonstra como empacotar uma aplicação Flask com Docker e configurar uma pipeline de integração contínua usando GitHub Actions. Ideal para quem quer aprender DevOps na prática com Python. 🚀
+
 ## 📚 Índice
 
 - [📁 Estrutura do Projeto](#-estrutura-do-projeto)
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 flask==2.3.2
 ```
 
-🧪 Testes Automatizados com Pytest
+## 🧪 Testes Automatizados com Pytest
 
 **test_app.py**
 ```
@@ -67,7 +67,7 @@ def test_home():
     assert b"Olá, mundo" in response.data
 ```
 
-🐳 Dockerfile
+## 🐳 Dockerfile
 
 **Dockerfile**
 ```
@@ -86,13 +86,17 @@ EXPOSE 5000
 CMD ["python", "app.py"]
 ```
 
-🧪 Testar localmente
+## 🧪 Testar localmente
 ```
+fazer o git clone no seu git bash
+git clone https://github.com/SEU_USUARIO/meu-app-docker.git
+
+no bash: cd meu-app-docker
 docker build -t meu-app .
 docker run -p 5000:5000 meu-app
 ```
 
-☁️ Subir para o GitHub
+## ☁️ Subir para o GitHub
 ```
 git init
 git remote add origin https://github.com/SEU_USUARIO/meu-app-docker.git
@@ -102,7 +106,7 @@ git branch -M main
 git push -u origin main
 ```
 
-⚙️ GitHub Actions: Pipeline de Build e Teste
+## ⚙️ GitHub Actions: Pipeline de Build e Teste
 ```
 .github/workflows/docker.yml
 
@@ -141,7 +145,7 @@ jobs:
 ```
   
 
-🧪 Simulações de Erros
+## 🧪 Simulações de Erros
 
     ❌ Dependência inexistente no requirements.txt
 
@@ -151,7 +155,7 @@ jobs:
 
     ✅ Testes automatizados com pytest
     
-📣 Badges
+## 📣 Badges
 
     Build Status: mostra se o último workflow passou ou falhou
 
@@ -159,7 +163,7 @@ jobs:
 
     License: exibe o tipo de licença do projeto
 
-    ✅ Resultado
+## ✅ Resultado
 
 A cada push ou pull request:
 
@@ -171,4 +175,10 @@ A cada push ou pull request:
 
     Executa testes automatizados com pytest
 
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+
 Feito com ❤️ usando Docker, Flask e GitHub Actions.
+
+⭐️ Dê uma estrela no repositório se este projeto te ajudou de alguma forma!
