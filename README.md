@@ -1,6 +1,6 @@
 # 🚀 Meu App com Docker e GitHub Actions
 ---
-
+.
 ![Build Status](https://github.com/mariotko9/meu-app-docker/actions/workflows/docker.yml/badge.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
