@@ -179,6 +179,6 @@ A cada push ou pull request:
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
 
-Feito com ❤️ usando Docker, Flask e GitHub Actions.
+Criado usando Docker, Flask e GitHub Actions.
 
 ⭐️ Dê uma estrela no repositório se este projeto te ajudou de alguma forma!
